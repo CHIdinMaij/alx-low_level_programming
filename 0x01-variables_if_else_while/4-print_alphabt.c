@@ -6,12 +6,10 @@
  */
 int main(void)
 {
-	char low = e, q;
+	char low = 'a'
 
-	e = 'e';
-	q = 'q';
 
-	for (low = 'a'; low <= 'q'; low++)
+	while (low <= 'z' )
 	{
 		if (low != 'e' && low != 'q')
                 	putchar(low);
