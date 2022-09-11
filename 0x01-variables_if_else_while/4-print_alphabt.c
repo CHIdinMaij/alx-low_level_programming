@@ -6,16 +6,17 @@
  */
 int main(void)
 {
-	char low = 'a'
+	char ch;
+        for (ch = 'a'; low <= 'z'; low++)
 
-
-	while (low <= 'z' )
 	{
-		if (low != 'e' && low != 'q')
-                	putchar(low);
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
 	}
-	        printf("\n");
-	
+	        putchar('\n');
+	}
+}
 	return (0);
 
 }
