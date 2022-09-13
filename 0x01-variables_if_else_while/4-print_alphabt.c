@@ -6,18 +6,25 @@
  */
 int main(void)
 {
-	char ch;
+	int ch;
 
-	for (ch = 'a'; low <= 'z'; low++)
+	for (ch = 0; ch	< 100; ch++)
 
-	{
-	if (ch != 'e' && ch != 'q')
 		{
-	putchar(ch);
+
+	putchar((d / 10));
+	putchar((d % 10));
+	if (d != 99)
+	{
+		putchar(',');
+		putchar(' ');
+		}
+
 	}
+
+
 	putchar('\n');
-	}
-}
+
 	return (0);
 
 }
